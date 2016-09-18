@@ -9,6 +9,7 @@ If mariadb is not installed, then follow this steps on fedora:
 2. Start db engine: **systemctl start mariadb**
 3. configure your installation (define db root password and accept all others default options): **mysql_secure_installation**
 4. Edit import_lnkin.sh and set script variables ( db user and db password)
+5. Goto directory where you put those lnkin txt files and just ./import_lnkin.sh :)
 
 Examples of simple queries after importing DB
 
