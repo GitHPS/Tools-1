@@ -22,7 +22,7 @@ Examples of simple queries after importing DB
 
 ## Import lnkin database tool NEW VERSION
 
-Just because I have a vintage computer (core2duo@2.93GHz with sata 7200 rpm J ), I decided to implement some changes in order to make things easy and faster. Here a brief discription about all changes made including the new scripts added.
+Just because I have a vintage computer (core2duo@2.93GHz with sata 7200 rpm J ), I decided to implement some changes in order to make things easier and faster. Here a brief discription about all changes made including the new scripts added.
 
 1. **import_lnkinV2.sh**: Implemented some changes to database structure. Added some indexes and changed data types. Log file implemented. 
 2. **config.sh**: Separated file for config vars (Database username and password, log file name.
