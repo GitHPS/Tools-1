@@ -27,7 +27,7 @@ Just because I have a vintage computer (core2duo@2.93GHz with sata 7200 rpm J ),
 1. **import_lnkinV2.sh**: Implemented some changes to database structure. Added some indexes and changed data types. Log file implemented. 
 2. **config.sh**: Separated file for config vars (Database username and password, log file name.
 3. **find.all.like.sh**: Execute a simple query for finding username and password havin a sequence of chars in any part of the username field.
-4. **find.sh**: Find username and password of a single user
+4. **find.sh**: Find username and password of a single user. Query takes less then a second to respond.
 5. **export.all.like.sh**: Same as find.all.like.sh exporting a file in passwd format to use with John. J
 
 ### Here how it went in my vintage PC and some useful examples
@@ -39,3 +39,8 @@ Just because I have a vintage computer (core2duo@2.93GHz with sata 7200 rpm J ),
 **Finding users with chars in username**
 
 ![find all users](https://github.com/pedrogoliveira/Tools/raw/master/images/find_all_like_.png)
+
+**Export all users with chars in username for use with john**
+
+![Export all users](https://github.com/pedrogoliveira/Tools/raw/master/images/export_all_like.png)
+
