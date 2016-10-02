@@ -1,0 +1,4 @@
+MARIADBUSER=root
+MARIADBPASSWORD=P4ssw0rd
+LOGFILE=importdb.log.txt
+
