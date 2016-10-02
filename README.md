@@ -36,4 +36,6 @@ Just because I have a vintage computer (core2duo@2.93GHz with sata 7200 rpm J ),
 
 ![Import Process time](https://github.com/pedrogoliveira/Tools/raw/master/images/import_times.png)
 
+**Finding users with chars in username**
 
+![find all users](https://github.com/pedrogoliveira/Tools/raw/master/images/find_all_like_.png)
