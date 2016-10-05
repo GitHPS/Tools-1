@@ -32,6 +32,16 @@ Just because I have a vintage computer (core2duo@2.93GHz with sata 7200 rpm J ),
 
 ### Here how it went in my vintage PC and some useful examples
 
+**Install process**
+If mariadb is not installed, then follow this steps on fedora:
+
+1. Using root or with sudo, install mariadb client and database: **dnf install mariadb mariadb-server**
+2. Start db engine: **systemctl start mariadb**
+3. configure your installation (define db root password and accept all others default options): **mysql_secure_installation**
+4. Edit **config.sh** and set script variables ( db user, db password and log file name)
+5. Goto directory where you put those lnkin txt files and just ./import_lnkinV2.sh :)
+
+**RESULTS:**
 **Import process log file**
 
 ![Import Process time](https://github.com/pedrogoliveira/Tools/raw/master/images/import_times.png)
