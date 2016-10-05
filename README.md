@@ -1,7 +1,7 @@
 # Tools
 Tools Collection
 
-## Import lnkin database tool (import_lnkin.sh) - Depracated!
+## Import lnkin database tool (import_lnkin.sh) - Deprecated!
 
 If mariadb is not installed, then follow this steps on fedora:
 
