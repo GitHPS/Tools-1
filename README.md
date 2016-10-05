@@ -54,3 +54,5 @@ If mariadb is not installed, then follow this steps on fedora:
 
 ![Export all users](https://github.com/pedrogoliveira/Tools/raw/master/images/export_all_like.png)
 
+**With John:**
+$ john --format=Raw-SHA1-AxCrypt --wordlist=4920_found_sorted.txt mes@sic.pt.pwd 
